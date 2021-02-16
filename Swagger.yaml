@@ -42,7 +42,6 @@ paths:
               properties:
                 name:
                   type: string
-                  enum: [Rachel, Joey, Ross, Charlie, Phoebe, Monica]
                   description: "Game Of Thrones character name."
                 text:
                   type: string
