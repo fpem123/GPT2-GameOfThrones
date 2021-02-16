@@ -14,12 +14,12 @@ info:
       * And then, Fill number in length. Text is created as long as "length". I recommend between 100 and 300.
       * If length is so big, generate time will be long.
     ---
-    And you can use this in [demo page]().
+    And you can use this in [demo page](https://master-gpt2-game-of-thrones-fpem123.endpoint.ainize.ai/).
 
-    Fine tuning data reference >> [](https://www.kaggle.com/albenft/game-of-thrones-script-all-seasons)
+    Fine tuning data reference >> [Game of Thrones Script All Seasons](https://www.kaggle.com/albenft/game-of-thrones-script-all-seasons)
 
 servers:
-  - url:
+  - url: https://master-gpt2-game-of-thrones-fpem123.endpoint.ainize.ai/
 
 paths:
   /gameofthrones:
