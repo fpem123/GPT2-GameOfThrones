@@ -8,13 +8,17 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from flask import Flask, request, jsonify, render_template
 import torch
+
 from queue import Queue, Empty
 from threading import Thread
 import time
+import os
 
 app = Flask(__name__)
 
 print("model loading...")
+
+print(os.system('ls'))
 
 # Model & Tokenizer loading
 tokenizer = AutoTokenizer.from_pretrained('./GPT2-large_game_of_thrones')

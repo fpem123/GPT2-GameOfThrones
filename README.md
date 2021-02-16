@@ -39,7 +39,7 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/albenft/game-of-thrones-script
 
 #### Input example
 
-    
+    curl -X POST "https://master-gpt2-game-of-thrones-fpem123.endpoint.ainize.ai/gameofthrones" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "name=jon snow" -F "text=Hello" -F "length=150"
 
 #### Output example
 
