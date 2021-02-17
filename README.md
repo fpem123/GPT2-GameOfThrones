@@ -42,8 +42,36 @@ Fine tuning data: [Kaggle](https://www.kaggle.com/albenft/game-of-thrones-script
     curl -X POST "https://master-gpt2-game-of-thrones-fpem123.endpoint.ainize.ai/gameofthrones" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "name=jon snow" -F "text=Hello" -F "length=150"
 
 #### Output example
+    
 
-
+    {
+      "0": [
+        [
+          "jon snow",
+          " Hello."
+        ],
+        [
+          "mance",
+          " You got any ale?"
+        ],
+        [
+          "jon snow",
+          " No."
+        ],
+        [
+          "mance",
+          " How can a man not keep ale in his home?"
+        ],
+        [
+          "jon snow",
+          " I'm not a homeowner."
+        ],
+        [
+          "mance",
+          " You are the Lord"
+        ]
+      ]
+    }
 
 
 ## * With swagger *
