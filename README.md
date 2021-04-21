@@ -4,6 +4,8 @@
 
 This project generate Game Of Thrones script using GPT-2 model.
 
+You can download the model here: [Hugging face](https://huggingface.co/HScomcom/gpt2-game-of-thrones)
+
 Fine tuning data: [Kaggle](https://www.kaggle.com/albenft/game-of-thrones-script-all-seasons)
 
 ### Model information
